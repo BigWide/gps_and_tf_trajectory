@@ -1,0 +1,6 @@
+<launch>
+
+      <node pkg="gps_and_tf_trajectory" type="nav_tf_txt"  name="nav_tf_txt" output="screen" >
+      </node>
+
+</launch>

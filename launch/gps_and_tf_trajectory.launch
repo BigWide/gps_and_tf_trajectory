@@ -1,0 +1,21 @@
+<launch>
+
+      <node pkg="gps_and_tf_trajectory" type="gps_converter"  name="gps_converter" output="screen" >
+	<param name="yaw" type="double" value="-91" />
+	<param name="pitch" type="double" value="0" />
+	<param name="roll" type="double" value="0" />
+	<param name="tx" type="double" value="-1.16" />
+	<param name="ty" type="double" value="3.1" />
+	<param name="tz" type="double" value="0" />
+        <param name="time" type="double" value="9" />
+	<param name="yaw1" type="double" value="1" />
+	<param name="pitch1" type="double" value="0" />
+	<param name="roll1" type="double" value="0" />
+	<param name="tx1" type="double" value="0" />
+	<param name="ty1" type="double" value="2" />
+	<param name="tz1" type="double" value="0" />
+	<param name="store" type="bool" value="false" />
+      </node>
+      
+      
+</launch>
